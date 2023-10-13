@@ -18,7 +18,7 @@ h2 {
     color: var(--white);
 }
 
-p, li, a {
+p, li, a, .btn-mag {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -64,6 +64,20 @@ p {
     color: var(--magenta);
 }
 
+/* My Work */
+.card-body {
+    background-color: var(--aubergine);
+    color: var(--white);
+}
+
+.card-body p {
+    text-align: left !important;
+}
+
+.card {
+    border: 2px solid var(--aubergine);
+}
+
 /* Contact Me */
 .fa-solid {
     font-size: 2rem;
@@ -75,6 +89,18 @@ p {
 /* Footer */
 .bg-purple {
     background-color: var(--purple);
+}
+
+.footer-links {
+    width: 10%;
+    font-size: 2rem;
+}
+
+/* Media Queries */
+@media screen and (min-width: 992px) {
+    .card-width {
+        width: 33%;
+    }
 }
 
 @media screen and (max-width: 767px) {
