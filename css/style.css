@@ -33,7 +33,7 @@ p {
     font-weight: 500;
 }
 
-.nav-link:hover {
+.nav-link:hover, a:hover {
     font-weight: 700;
     color: var(--magenta);
 }
@@ -50,6 +50,7 @@ p {
 
 .btn-mag:hover {
     background-color: #6b3b61;
+    box-shadow: white !important;
 }
 
 /* About Me */
