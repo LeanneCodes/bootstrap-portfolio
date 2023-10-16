@@ -123,10 +123,6 @@ p {
         align-items: start !important;
     }
 
-    .nav-link {
-        display: none;
-    }
-
     .footer-links {
         width: 12%;
     }
@@ -158,9 +154,5 @@ p {
 
     .footer-links {
         width: 50%;
-    }
-
-    .navbar-toggler {
-        position: absolute;
     }
 }
