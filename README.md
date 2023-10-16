@@ -8,6 +8,10 @@ Remade my previous portfolio using Bootstrap's components and utilities. The sit
 
 View website [here](https://leannecodes.github.io/bootstrap-portfolio/).
 
+## Fixed Bug
+
+Initially, I included the Bootstrap syntax `d-flex` to the navbar collapse toggle, as I thought I needed this to adjust my nav links to the right. Instead, it was stopping my navbar from collapsing. This has now been removed and the navbar toggle is working as intended.
+
 ## Credits
 
 - Icons from FontAwesome
